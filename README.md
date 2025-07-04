@@ -9,14 +9,10 @@ The **Gelonezi ExplorerIO API** is a .NET 9 ASP.NET Core Web API that exposes Ex
 
 ## Features (coming soon)
 
-- 🔐 **Access Control**
-Validate and enforce credentials via configurable authorization providers.
-- ⚡ **Caching**
-In-memory and distributed caching for faster, more reliable responses.
-- 🔌 **Service Integration**
-Plug-and-play storage backends (AWS S3, GCS, Dropbox, etc.) via the SDK.
-- 📄 **Swagger & OpenAPI**
-Interactive API docs auto-generated at `/swagger`.
+- 🔐 **Access Control** Validate and enforce credentials via configurable authorization providers.
+- ⚡ **Caching** In-memory and distributed caching for faster, more reliable responses.
+- 🔌 **Service Integration** Plug-and-play storage backends (AWS S3, GCS, Dropbox, etc.) via the SDK.
+- 📄 **Swagger & OpenAPI** Interactive API docs auto-generated at `/swagger`.
 
 ---
 
@@ -46,7 +42,7 @@ Interactive API docs auto-generated at `/swagger`.
 3. **Run the API**
 
     ```bash
-    cd src/Gelonezi.ExplorerIo.Api.WebApi
+    cd src/Gelonezi.ExplorerIO.Api.WebApi
     dotnet run
     ```
 
@@ -62,8 +58,8 @@ Interactive API docs auto-generated at `/swagger`.
 
 ```text
 /src
-  └─ Gelonezi.ExplorerIo.Api.Services # SDK wiring, options & DI registrations
-  ├─ Gelonezi.ExplorerIo.Api.WebApi   # ASP.NET Core Web API project
+  └─ Gelonezi.ExplorerIO.Api.Services # SDK wiring, options & DI registrations
+  ├─ Gelonezi.ExplorerIO.Api.WebApi   # ASP.NET Core Web API project
 /tests
   ├─ unit                             # Unit tests (no external dependencies)
   └─ integration                      # Integration tests (uses Docker Compose)
